@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
+
+
+.project_container{
+    padding: 2em;
+    width: 100%;
+}
+
+.title_container{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 0 auto;
+}
+.title_container h1{
+    margin: 50px auto 20px auto;
+    font-family: 'Roboto Slab', serif;
+    font-size: 35pt;
+}
+.caixa-projects{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.botaoCriar{
+    padding: 12px;
+    background-color: #297cc0;
+    border-radius: 5px;
+    color: #fcfcfc;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.224);
+    width: 170px;
+    margin-bottom: 25px;
+    border: none;
+    font-size: 12pt;
+    cursor: pointer;
+}
+.botaoCriar:hover{
+    background-color: #005aa3;
+}
+.botaoTocarAgora{
+    padding: 12px;
+    background-color: #983422;
+    border-radius: 5px;
+    color: #fcfcfc;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.224);
+    width: 170px;
+    margin-bottom: 25px;
+    border: none;
+    font-size: 12pt;
+    cursor: pointer;
+}
+.botaoTocarAgora:hover{
+    background-color: #8c2311;
+}
+.caixaBotoes{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}

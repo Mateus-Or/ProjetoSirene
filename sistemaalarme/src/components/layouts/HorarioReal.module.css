@@ -1,0 +1,10 @@
+.container_horario{
+    
+    display: flex;
+    justify-content: center;
+    margin-top: -100px;
+    margin-bottom: 30px;
+}
+.horario{
+    font-size: 50pt;
+}

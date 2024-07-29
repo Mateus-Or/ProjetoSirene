@@ -1,0 +1,88 @@
+
+.modal_overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
+
+  }
+  
+  .modal {
+    background: white;
+    padding: 0 30px 0 30px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 400px;
+    height: 190px;
+  }
+  .titulo{
+    margin-bottom: 30px;
+    margin-top: 40px;
+  }
+  .close_button {
+    padding: 10px;
+
+    background-color: #ffffff;
+    color: #640000;
+
+    border-radius: 5px;
+    border: 2px solid #640000;
+
+    font-size: 14pt;
+    font-weight: bold;
+
+    text-decoration: none;
+    text-align: center;
+
+    box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.224);
+
+    cursor: pointer;
+
+
+    transition: transform .2s ease-in-out;
+  }
+  .close_button:hover{
+    background-color: #ff000048;
+    padding: 11px;
+    font-size: 14.2pt;
+    transform: scale(1.1);
+}
+  .confirm_button {
+    padding: 10px;
+
+    background-color: #ffffff;
+    color: #007521;
+
+    border-radius: 5px;
+    border: 2px solid #007521;
+
+    font-size: 14pt;
+    font-weight: bold;
+
+    text-decoration: none;
+    text-align: center;
+
+    box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.224);
+
+    cursor: pointer;
+
+    margin-left: 15px;
+
+    transition: transform .2s ease-in-out;
+  }
+  
+.confirm_button:hover{
+    
+    background-color: #00ff2a4b;
+    padding: 11px;
+    font-size: 14.2pt;
+    transform: scale(1.1);
+}

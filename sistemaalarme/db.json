@@ -1,0 +1,51 @@
+{
+  "diasdasemana": [
+    {
+      "id": 0,
+      "dia": "Domingo",
+      "ativo": false
+    },
+    {
+      "id": 1,
+      "dia": "Segunda-feira",
+      "ativo": true
+    },
+    {
+      "id": 2,
+      "dia": "Terça-feira",
+      "ativo": true
+    },
+    {
+      "id": 3,
+      "dia": "Quarta-feira",
+      "ativo": true
+    },
+    {
+      "id": 4,
+      "dia": "Quinta-feira",
+      "ativo": true
+    },
+    {
+      "id": 5,
+      "dia": "Sexta-feira",
+      "ativo": true
+    },
+    {
+      "id": 6,
+      "dia": "Sábado",
+      "ativo": false
+    }
+  ],
+  "alarms": [
+    {
+      "time": "08:00",
+      "ativo": true,
+      "id": 3
+    },
+    {
+      "time": "07:30",
+      "ativo": false,
+      "id": 4
+    }
+  ]
+}

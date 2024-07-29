@@ -1,0 +1,37 @@
+:root{
+    --baje: #EFA14B;
+    --azul: #3382c1;
+  }
+
+
+.btn_confirmar{
+    background-color: var(--azul);
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.5s;
+    color: white;
+
+    border: none;
+
+    font-size: 14pt;
+
+   
+}
+.btn:hover{
+    background-color: #005aa3;
+}
+.btn_cancelar{
+    background-color: rgb(255, 137, 137);
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.5s;
+    color: rgb(114, 1, 1);
+
+    border: none;
+
+    font-size: 14pt;
+
+   margin-right: 10px;
+}

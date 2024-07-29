@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
+.container{
+    margin: 0 auto;
+}
+.form{
+    border-radius: 15px;
+    border: 2px solid rgb(0, 104, 10);
+    padding: 0 30px 20px 30px;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.281);
+}
+.tituloLogin{
+    text-align: center;
+    font-size: 20pt;
+    background-color: #5EAB52;
+    font-family:'Castoro', serif, Arial;
+    color: #FFF;
+    width: 200px;
+    padding:  2px;
+    border-radius: 0 0 30px 30px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.campo{
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #50a843;
+
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.281);
+
+}
+.btn_Entrar{
+    background-color: #339324;
+    padding: 10px 15px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.5s;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 15pt;
+    width: 100%;
+}
+.input{
+    display: block;
+    margin: auto;
+    width: 255px;
+    height: 40px;
+    padding: 5px;
+    font-size: 12pt;
+    
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px solid #50a843;
+
+    float: right;
+    
+}
+.icon{
+    font-size: 2.5em;  
+    padding: 5px;
+    padding-left: 9px;
+    color: white;
+}

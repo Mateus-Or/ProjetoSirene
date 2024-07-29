@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
+.navbar{
+    padding: 0 3em ;
+}
+.logo{
+
+    width: 140px;
+    height: 140px;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 20pt;
+    background-color: #5EAB52;
+    font-family:'Castoro', serif, Arial;
+    color: #FFF;
+    width: 450PX;
+    padding: 5px;
+    border-radius: 0 0 30px 30px;
+    margin: auto;
+}

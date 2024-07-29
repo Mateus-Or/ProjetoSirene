@@ -1,0 +1,33 @@
+
+.btn{
+  width: 60px;
+  height: 30px;
+  background-color: #ff6b6b; /* Vermelho quando desativado */
+  border-radius: 30px;
+
+  transition: background-color 0.3s;
+  cursor: pointer;
+  border: none;
+
+  display: flex;
+  align-items: center;
+}
+
+.btn.ativado {
+  background-color: #66ff66; /* Verde quando ativado */
+  
+}
+
+.slider {
+  width: 22px;
+  height: 22px;
+  background-color: white;
+  border-radius: 50%;
+  transition: transform 0.3s;
+  margin: 0 5px;
+}
+
+.btn.ativado .slider {
+  transform: translateX(29px);
+}
+

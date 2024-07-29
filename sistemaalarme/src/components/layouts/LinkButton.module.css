@@ -1,0 +1,14 @@
+.botaoCriar{
+    padding: 12px;
+    background-color: #297cc0;
+    border-radius: 5px;
+    color: #fcfcfc;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.224);
+    width: 170px;
+    margin-bottom: 25px;
+}
+.botaoCriar:hover{
+    background-color: #005aa3;
+}

@@ -1,0 +1,15 @@
+.form, form{
+    width: 100%;
+    margin: 2em 0;
+}
+.container_btn{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.btn_concluir{
+    margin-left: 90%;
+}
+.btn_concluir{
+    margin-left: 90%;
+}
