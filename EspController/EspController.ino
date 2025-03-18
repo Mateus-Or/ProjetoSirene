@@ -132,7 +132,7 @@ void loop() {
     if (alarmesDias[i].ativo && alarmesDias[i].id == now.dayOfTheWeek()) {
       for (auto& alarme : alarmesHorarios) {
         if (alarme.ativo) {
-          String currentTime = String(now.hour()) + ":" + (now.minute() < 10 ? "0" : "") + String(now.minute());
+          String currentTime = String(now.hour() < 10 ? "0" : "") + ":" + (now.minute() < 10 ? "0" : "") + String(now.minute());
 
           if (currentTime == alarme.time) {
             Serial.println("Ativando alarme para " + diaSemana + " às " + alarme.time);
